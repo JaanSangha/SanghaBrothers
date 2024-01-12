@@ -30,6 +30,11 @@ header{
   /* Extra small devices (phones) */
 @media (max-width: 576px) {
     /* Styles for phones */
+    header {
+        height: 70vh;
+
+    }
+
     header h1 {
         font-size: 8vw;
       }
