@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(../img/tempCover.jpg);
+    background-size: cover ;
+    background-position: 55%;
+    height: 100vh;
+    display: flex;
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering */
+    color: aliceblue;
+  }
+
+  header h1 {
+    font-size: 5vw;
+    text-align: center;
+    font-family: 'Averia Serif Libre', serif;
+  }
+
+  header h2 {
+    font-family: 'Averia Serif Libre', serif;
+    display: inline-block;
+    border: 2px solid white;
+  }
+
+  /* Extra small devices (phones) */
+@media (max-width: 576px) {
+    /* Styles for phones */
+    header h1 {
+        font-size: 8vw;
+      }
+}
+
+/* Small devices (tablets) */
+@media (min-width: 577px) and (max-width: 767px) {
+    /* Styles for tablets */
+    header h1 {
+        font-size: 7vw;
+      }
+}
+
+/* Medium devices (laptops, small desktops) */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Styles for laptops and small desktops */
+    header h1 {
+        font-size: 7vw;
+      }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Styles for desktops */
+    header h1 {
+        font-size: 7vw;
+      }
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+    /* Styles for large desktops */
+}
