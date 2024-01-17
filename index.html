@@ -9,40 +9,135 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,400&family=Caveat&family=Edu+TAS+Beginner&family=PT+Sans&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
+    
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css" />
 
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/navbar.js"></script>
 </head>
 <body>
-      <header class="container-fluid">
-        
-        <h1 class="mx-auto">Sangha Brothers</h1>
-        <!-- Add other header content as needed -->
-    </header>
+
+  <nav id="navbar" class="navbar navbar-expand-md navbar-dark fixed-top">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item active">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">About</a>
+        </li>
+        <li class="nav-item spacer"></li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      <div class="container-fluid headerimg">
+        <img src="./img/SB Main Logoedited.png" class="img-fluid"  id="shrinkImage" alt="Your Image Alt Text">
+      </div>
 
     <div class="container-fluid p-0 col-xxl-8">
         <div class="row flex-lg-row-reverse align-items-center m-0 g-5">
           <div class="col-12 col-lg-6 p-0 m-0">
             <img src="./img/suitstreet.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy">
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 intro-message">
             <h1 class="display-5 fw-bold text-center text-body-emphasis lh-1 mb-3">Discover Exclusive Men's Fashion</h1>
             <p class="text-center">
-                Elevate your style with Carpe Luxe Men, where luxury meets sophistication. Our curated collection features premium designer brands that embody sartorial elegance, modern aesthetics, and timeless craftsmanship.
+                Elevate your style with Sangha Brothers, where luxury meets sophistication. Our curated collection features premium designer brands that embody sartorial elegance, modern aesthetics, and timeless craftsmanship.
             </p>
             <p class="text-center">
-                Nestled in the heart of the vibrant city of Toronto, Carpe Luxe Men is your go-to upscale menswear boutique. Immerse yourself in a world of impeccable service, expert style advice, and exclusive menswear collections that redefine the essence of sophistication.
+                Nestled in the heart of the vibrant city of Brampton, Sangha Brothers is your go-to upscale menswear boutique. Immerse yourself in a world of impeccable service, expert style advice, and exclusive menswear collections that redefine the essence of sophistication.
             </p>
-
             </div>
           </div>
         </div>
       </div>
 
+      <div class="p-5 blackjumbo text-center ">
+        <h2 class="text-body-emphasis font-weight-bold text-uppercase">Crafting Elegance, Tailoring Excellence</h2>
+    
+        <div class="container two-columns py-md-5 py-sm-3">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h3 class="text-body-emphasis">Quality Materials</h3>
+                    <hr>
+                    <p class="mx-auto lead">
+                        Indulge in the epitome of refinement with our meticulously crafted suits, where quality is paramount. Each piece is tailored from the finest materials, ensuring an exquisite blend of sophistication and comfort, setting a new standard for the modern gentleman's wardrobe.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h3 class="text-body-emphasis">Made to Measure</h3>
+                    <hr>
+                    <p class="mx-auto lead">
+                        Experience the pinnacle of sartorial excellence with our unparalleled tailoring services. Our master craftsmen dedicate meticulous attention to detail, creating bespoke suits that epitomize precision and sophistication. Elevate your style with the perfect fit and unmatched artistry that defines our commitment to tailoring perfection.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="container-fluid">
+      <div class="row">
+          <div class="col-sm-4 p-0">
+              <img src="./img/photoshoot/Shoot-132.jpg" class="img-fluid custom-img" alt="Image 1">
+          </div>
+          <div class="col-sm-4 p-0">
+              <img src="./img/photoshoot/Shoot-147.jpg" class="img-fluid custom-img" alt="Image 2">
+          </div>
+          <div class="col-sm-4 p-0">
+              <img src="./img/photoshoot/Shoot-64.jpg" class="img-fluid custom-img" alt="Image 3">
+          </div>
+      </div>
+  </div>
 
-
+  <div class="container-fluid review-slider">
+    <div class="row">
+      <div class="col-md-12">
+          <div id="customerReviewsCarousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="slider-title">Tailoring Mastery Unleashed!</div>
+                    <div class="slider-body">I never knew a suit could make such a difference until I experienced the craftsmanship at Sangha Brothers. The attention to detail and personalized touch in every stitch are unparalleled. My suit fits like a dream, and I've never felt more confident. This is tailoring mastery unleashed!</div>
+                                      </div>
+                  <div class="carousel-item">
+                    <div class="slider-title">Elegance Redefined</div>
+                    <div class="slider-body">Prepare to redefine elegance with Sangha Brothers. From the first consultation to the final fitting, the process was seamless. The exquisite fabrics and impeccable tailoring resulted in a suit that not only fits perfectly but elevates my style to new heights. Exceptional craftsmanship and personalized service make this company a hidden gem.</div>
+                                      </div>
+                  <div class="carousel-item">
+                    <div class="slider-title">Bespoke Brilliance!</div>
+                    <div class="slider-body">Finding the perfect suit used to be a challenge until I discovered Sangha Brothers. The bespoke experience here is nothing short of brilliance. The knowledgeable team guided me through every step, ensuring my suit not only fits flawlessly but reflects my personality. A small company with a big impact on style!</div>
+                                      </div>
+              </div>
+              <a class="carousel-control-prev" href="#customerReviewsCarousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#customerReviewsCarousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+              </a>
+          </div>
+      </div>
+  </div>
+  </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

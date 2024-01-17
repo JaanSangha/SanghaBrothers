@@ -2,9 +2,54 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'GFS Didot', serif;
 }
 
-header{
+header img {
+  width:40px;
+  height:40px;
+}
+#navbar {
+  height: 100px;
+  background-color: #141414; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  z-index: 1;
+  top: -100px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+.navbar-nav {
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-item.active a {
+  text-decoration: underline;
+}
+
+.nav-item.spacer {
+  width: 25vw; /* Adjust the width as needed */
+}
+
+#shrinkImage {
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+#shrinkImage.shrink {
+  transform: translateY(-100%) scale(0);
+  opacity: 0;
+}
+
+hr {
+  color: #333; /* Line color */
+  background-color: #333; /* Line color for browsers that support it */
+  height: 2px; /* Line thickness */
+  margin: 20px 0; /* Margin above and below the line */
+}
+
+.headerimg{
     background-image: url(../img/tempCover.jpg);
     background-size: cover ;
     background-position: 55%;
@@ -15,52 +60,192 @@ header{
     color: aliceblue;
   }
 
-  header h1 {
+  .headerimg h1 {
     font-size: 5vw;
     text-align: center;
     font-family: 'Averia Serif Libre', serif;
   }
 
-  header h2 {
+  .headerimg h2 {
     font-family: 'Averia Serif Libre', serif;
     display: inline-block;
     border: 2px solid white;
   }
 
+  .headerimg img {
+    width: 50vw;
+  }
+
+  .intro-message {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+
+  .blackjumbo {
+    background-color: black;
+    color: white;
+  }
+
+  .two-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-img {
+  height: 75vh;
+  width: 100%; /* To make sure it fills the entire width of the column */
+  object-fit: cover;
+  object-position: center 15%
+}
+
+.review-slider{
+  height: 65vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center;
+  position: relative;
+}
+
+.slider-content {
+  margin-bottom: 20px; /* Adjust as needed to create space between content and controls */
+}
+
+.slider-controls {
+  position: absolute;
+  bottom: 10px; /* Adjust as needed to position controls from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Style for controls (adjust as needed) */
+.slider-controls button {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.slider-title,
+.slider-body {
+  text-align: center; /* Center text within each element */
+  max-width: 70%; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center elements within the container */
+}
+
+.slider-title {
+  font-size: 2.5vw;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.slider-body {
+  font-size: 1.5vw;
+  margin-bottom: 20px;
+}
+
   /* Extra small devices (phones) */
 @media (max-width: 576px) {
     /* Styles for phones */
-    header {
+    .headerimg {
         height: 70vh;
 
     }
 
-    header h1 {
+    .headerimg h1 {
         font-size: 8vw;
       }
+
+      .headerimg img {
+        width: 70vw;
+      }
+
+      .blackjumbo h2{
+          font-size: 5.5vw;
+          padding-bottom: 2.5vh;
+
+      }
+
+      .blackjumbo h3{
+        font-size: 4.5vw;
+
+    }
+
+      .blackjumbo p{
+        font-size: 3vw;
+        padding-bottom: 3vh;
+    }
+
+    .custom-img {
+      height: 55vh;
+      width: 100%; /* To make sure it fills the entire width of the column */
+      object-fit: cover;
+    }
+
+    .review-slider{
+      height: 40vh;
+    }
+    .slider-title {
+      font-size: 4vw;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+    
+    .slider-body {
+      font-size: 2.5vw;
+      margin-bottom: 20px;
+    }
 }
 
 /* Small devices (tablets) */
 @media (min-width: 577px) and (max-width: 767px) {
     /* Styles for tablets */
-    header h1 {
+    .headerimg h1 {
         font-size: 7vw;
+      }
+
+      .review-slider{
+        height: 55vh;
+      }
+      .slider-title {
+        font-size: 3vw;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+      }
+      
+      .slider-body {
+        font-size: 2vw;
+        margin-bottom: 20px;
       }
 }
 
 /* Medium devices (laptops, small desktops) */
 @media (min-width: 768px) and (max-width: 991px) {
     /* Styles for laptops and small desktops */
-    header h1 {
+    .headerimg h1 {
         font-size: 7vw;
+      }
+
+      .nav-item.spacer {
+        width: 35vw; /* Adjust the width as needed */
       }
 }
 
 /* Large devices (desktops) */
 @media (min-width: 992px) and (max-width: 1199px) {
     /* Styles for desktops */
-    header h1 {
+    .headerimg h1 {
         font-size: 7vw;
+      }
+
+      .nav-item.spacer {
+        width: 35vw; /* Adjust the width as needed */
       }
 }
 
