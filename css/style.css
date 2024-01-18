@@ -11,7 +11,8 @@ header img {
 }
 #navbar {
   height: 100px;
-  background-color: #141414; /* Black background color */
+  background-color: white; /* Black background color */
+  color: black;
   position: fixed; /* Make it stick/fixed */
   z-index: 1;
   top: -100px; /* Hide the navbar 50 px outside of the top view */
@@ -34,7 +35,7 @@ header img {
 }
 
 #shrinkImage {
-  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  transition: transform 0.4s ease-out, opacity 0.4s ease-out;
 }
 
 #shrinkImage.shrink {
@@ -52,7 +53,7 @@ hr {
 .headerimg{
     background-image: url(../img/tempCover.jpg);
     background-size: cover ;
-    background-position: 55%;
+    background-position: center 35%;
     height: 100vh;
     display: flex;
     align-items: center; /* Vertical centering */
@@ -148,6 +149,20 @@ hr {
   margin-bottom: 20px;
 }
 
+.nav li i {
+  font-size: 2vw; /* Change this value to your desired icon size */
+  margin-right: 1vw; 
+}
+
+#footer-logo {
+  width: 4vw;
+}
+
+#footer-id p {
+  font-size: 1.5vw;
+  text-align: start;
+}
+
   /* Extra small devices (phones) */
 @media (max-width: 576px) {
     /* Styles for phones */
@@ -200,6 +215,20 @@ hr {
       font-size: 2.5vw;
       margin-bottom: 20px;
     }
+
+    #footer-logo {
+      width: 14vw;
+      margin-bottom: 1vh;;
+    }
+
+    .nav li i {
+      font-size: 5vw; /* Change this value to your desired icon size */
+    }
+    
+    #footer-id p {
+      font-size: 4vw;
+      text-align: center;
+    }
 }
 
 /* Small devices (tablets) */
@@ -223,6 +252,20 @@ hr {
         font-size: 2vw;
         margin-bottom: 20px;
       }
+
+      #footer-logo {
+        width: 12vw;
+        margin-bottom: 1vh;;
+      }
+  
+      .nav li i {
+        font-size: 4vw; /* Change this value to your desired icon size */
+      }
+      
+      #footer-id p {
+        font-size: 3vw;
+        text-align: center;
+      }
 }
 
 /* Medium devices (laptops, small desktops) */
@@ -234,6 +277,21 @@ hr {
 
       .nav-item.spacer {
         width: 35vw; /* Adjust the width as needed */
+      }
+
+      #footer-logo {
+        width: 8vw;
+        margin-bottom: 1vh;;
+      }
+  
+      .nav li i {
+        font-size:2vw; /* Change this value to your desired icon size */
+        margin-right: 0vw;
+      }
+      
+      #footer-id p {
+        font-size: 2.5vw;
+        text-align: center;
       }
 }
 
