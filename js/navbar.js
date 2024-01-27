@@ -1,15 +1,15 @@
 var imageAdded = false;
 
-window.onscroll = function () {
+$(document).on('scroll', function () {
   handleScroll();
-};
+});
 
 function handleScroll() {
   var navbar = document.getElementById("navbar");
   var shrinkImage = document.getElementById("shrinkImage");
 
   // Check if the user has scrolled down a certain amount
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if ($(document).scrollTop() > 20) {
     navbar.style.top = "0";
 
     // Add a class to trigger the shrink effect on the image
@@ -35,26 +35,29 @@ function handleScroll() {
 }
 
 function addImageOnScrollWithDelay() {
-    if (!imageAdded) {
-      imageAdded = true;
-  
-      setTimeout(function () {
-        var imageElement = document.createElement("img");
-        imageElement.src = 'img/SB Main Logoedited.png';
-        imageElement.id = 'scrolledImage';
-        imageElement.style.width = '225px'; // Start with a larger size
-        imageElement.style.position = 'fixed';
-        imageElement.style.left = '50%';
-        imageElement.style.transform = 'translateX(-50%) scale(1)'; // Start with full scale
-        imageElement.style.transition = 'transform 0.5s ease-out';
-  
-        document.getElementById("navbar").appendChild(imageElement);
-  
-        imageElement.offsetWidth;
-  
-        // Set final transform for the transition
-        imageElement.style.transform = 'translateX(-50%) scale(0.88)'; // Scale down to 200px
-      }, 180); // 500 milliseconds (0.5 seconds) delay
-    }
+  if (!imageAdded) {
+    imageAdded = true;
+
+    setTimeout(function () {
+      var imageElement = document.createElement("img");
+      imageElement.src = 'img/SB Main Logoedited.png';
+      imageElement.id = 'scrolledImage';
+      imageElement.style.width = '215px'; // Start with a larger size
+      imageElement.style.position = 'fixed';
+      imageElement.style.left = '50%';
+      imageElement.style.transform = 'translateX(-50%) scale(1)'; // Start with full scale
+      imageElement.style.transition = 'transform 0.5s ease-out';
+
+      // Get the container-fluid element
+      var containerFluid = document.querySelector(".container-fluid");
+
+      // Insert the image as the first child inside container-fluid
+      containerFluid.insertBefore(imageElement, containerFluid.firstChild);
+
+      imageElement.offsetWidth;
+
+      // Set final transform for the transition
+      imageElement.style.transform = 'translateX(-50%) scale(0.9)'; // Scale down to 200px
+    }, 180); // 180 milliseconds delay
   }
-  
+}
