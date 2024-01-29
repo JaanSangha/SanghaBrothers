@@ -12,14 +12,22 @@ header img {
 }
 #navbar {
   min-height: 100px;
-  background-color: white; /* Black background color */
+  background-color: white; 
   color: black;
-  position: fixed; /* Make it stick/fixed */
+  position: fixed; 
   z-index: 1;
-  top: -100px;  /*Hide the navbar 50 px outside of the top view */
-  width: 100%; /* Full width */
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  letter-spacing: 3px;
+  font-size: 1.2vw;
+  font-family: 'Averia Serif Libre', serif;
+  /*top: -100px; */
+  width: 100%; 
+  transition: top 0.3s; 
 }
+
+#navbar img {
+  max-width: 200px;
+}
+/*
 
 .navbar-nav {
   margin: auto;
@@ -32,9 +40,15 @@ header img {
 }
 
 .nav-item.spacer {
-  width: 25vw; /* Adjust the width as needed */
+  width: 25vw; 
 }
 
+.nav li i {
+  font-size: 2vw; 
+  margin-right: 1vw; 
+}
+
+*/
 #shrinkImage {
   transition: transform 0.4s ease-out, opacity 0.4s ease-out;
 }
@@ -166,10 +180,7 @@ video {
   object-position: right top; 
 }
 
-.nav li i {
-  font-size: 2vw; /* Change this value to your desired icon size */
-  margin-right: 1vw; 
-}
+
 
 #footer-logo {
   width: 4vw;
@@ -183,6 +194,9 @@ video {
   /* Extra small devices (phones) */
 @media (max-width: 576px) {
     /* Styles for phones */
+    #navbar {
+      font-size: 4vw;
+    }
     .headerimg {
         height: 70vh;
 
@@ -242,10 +256,6 @@ video {
       width: 14vw;
       margin-bottom: 1vh;;
     }
-
-    .nav li i {
-      font-size: 5vw; /* Change this value to your desired icon size */
-    }
     
     #footer-id p {
       font-size: 4vw;
@@ -280,9 +290,7 @@ video {
         margin-bottom: 1vh;;
       }
   
-      .nav li i {
-        font-size: 4vw; /* Change this value to your desired icon size */
-      }
+
       
       #footer-id p {
         font-size: 3vw;
@@ -297,20 +305,11 @@ video {
         font-size: 7vw;
       }
 
-      .nav-item.spacer {
-        width: 35vw; /* Adjust the width as needed */
-      }
-
       #footer-logo {
         width: 8vw;
         margin-bottom: 1vh;;
       }
-  
-      .nav li i {
-        font-size:2vw; /* Change this value to your desired icon size */
-        margin-right: 0vw;
-      }
-      
+
       #footer-id p {
         font-size: 2.5vw;
         text-align: center;
@@ -324,9 +323,6 @@ video {
         font-size: 7vw;
       }
 
-      .nav-item.spacer {
-        width: 35vw; /* Adjust the width as needed */
-      }
 }
 
 /* Extra large devices (large desktops) */
