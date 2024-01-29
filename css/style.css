@@ -6,10 +6,6 @@ body {
     background-color: white;
 }
 
-header img {
-  width:40px;
-  height:40px;
-}
 #navbar {
   min-height: 100px;
   background-color: white; 
@@ -17,7 +13,7 @@ header img {
   position: fixed; 
   z-index: 1;
   letter-spacing: 3px;
-  font-size: 1.2vw;
+  font-size: 1.15vw;
   font-family: 'Averia Serif Libre', serif;
   /*top: -100px; */
   width: 100%; 
@@ -27,35 +23,14 @@ header img {
 #navbar img {
   max-width: 200px;
 }
-/*
 
-.navbar-nav {
-  margin: auto;
-  display: flex;
-  align-items: center;
-}
-
-.navbar-nav .nav-item.active a {
-  text-decoration: underline;
+nav li {
+  /*padding: 0px 1.5vw 0px 1.5vw;*/
+min-width: 110px;
 }
 
 .nav-item.spacer {
-  width: 25vw; 
-}
-
-.nav li i {
-  font-size: 2vw; 
-  margin-right: 1vw; 
-}
-
-*/
-#shrinkImage {
-  transition: transform 0.4s ease-out, opacity 0.4s ease-out;
-}
-
-#shrinkImage.shrink {
-  transform: translateY(-100%) scale(0);
-  opacity: 0;
+  width: 300px; 
 }
 
 hr {
