@@ -38,6 +38,7 @@ body {
 
 #navbar img {
   max-width: 200px;
+  min-width: 200px;
 }
 
 nav li {
@@ -186,6 +187,10 @@ hr {
     #navbar {
       font-size: 4vw;
     }
+    #navbar img {
+      padding-left: 30px;
+    }
+
     .headerimg {
         height: 100vh;
         padding: 0;
@@ -255,6 +260,13 @@ hr {
 /* Small devices (tablets) */
 @media (min-width: 577px) and (max-width: 767px) {
     /* Styles for tablets */
+    #navbar {
+      font-size: 3vw;
+    }
+    #navbar img {
+      padding-left: 30px;
+    }
+
     .headerimg h1 {
         font-size: 7vw;
       }
@@ -290,6 +302,13 @@ hr {
 /* Medium devices (laptops, small desktops) */
 @media (min-width: 768px) and (max-width: 991px) {
     /* Styles for laptops and small desktops */
+    #navbar {
+      font-size: 1.8vw;
+    }
+    nav li {
+      /*padding: 0px 1.5vw 0px 1.5vw;*/
+    min-width: 80px;
+    }
     .navbar-brand {
       position: absolute;
       text-align: center;
@@ -317,6 +336,10 @@ hr {
 /* Large devices (desktops) */
 @media (min-width: 992px) and (max-width: 1199px) {
     /* Styles for desktops */
+    #navbar {
+      font-size: 1.8vw;
+    }
+
     .navbar-brand {
       position: absolute;
       text-align: center;
