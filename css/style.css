@@ -20,6 +20,19 @@ body {
   transition: top 0.3s; 
 }
 
+#navbar-static {
+  min-height: 100px;
+  background-color: white; 
+  color: black;
+  position: fixed; 
+  z-index: 1000;
+  letter-spacing: 3px;
+  font-size: 1.15vw;
+  font-family: 'Averia Serif Libre', serif;
+  width: 100%; 
+  transition: top 0.3s; 
+}
+
 .navbar-nav {
   display: flex;
   align-items: center;
@@ -27,6 +40,11 @@ body {
 }
 
 #navbar img {
+  max-width: 200px;
+  min-width: 200px;
+}
+
+#navbar-static img {
   max-width: 200px;
   min-width: 200px;
 }
@@ -49,6 +67,32 @@ hr {
 
 .top-content{
   background-color: white;
+}
+
+#contact-form{
+  padding-top: 150px; /* Adjust this value based on your navbar height */
+  padding-bottom: 100px;
+}
+
+.text-form{
+  color: white;
+}
+
+.text-form input {
+  color: bisque;
+  background-color: #333;
+  border-color: #ffffff;
+}
+
+.text-form span{
+background-color: #333;
+border-color: #ffffff;
+}
+
+#message{
+  color: bisque;
+  background-color: #333;
+  border-color: #ffffff;
 }
 
 .headerimg{
@@ -182,6 +226,12 @@ footer {
     #navbar img {
       padding-left: 30px;
     }
+    #navbar-static {
+      font-size: 4vw;
+    }
+    #navbar-static img {
+      padding-left: 30px;
+    }
 
     video {
       width: 100vw;
@@ -264,6 +314,12 @@ footer {
     #navbar img {
       padding-left: 30px;
     }
+    #navbar-static {
+      font-size: 3vw;
+    }
+    #navbar-static img {
+      padding-left: 30px;
+    }
 
     .headerimg h1 {
         font-size: 7vw;
@@ -303,6 +359,9 @@ footer {
     #navbar {
       font-size: 1.8vw;
     }
+    #navbar-static {
+      font-size: 1.8vw;
+    }
     nav li {
       /*padding: 0px 1.5vw 0px 1.5vw;*/
     min-width: 80px;
@@ -335,6 +394,9 @@ footer {
 @media (min-width: 992px) and (max-width: 1199px) {
     /* Styles for desktops */
     #navbar {
+      font-size: 1.8vw;
+    }
+    #navbar-static {
       font-size: 1.8vw;
     }
 
