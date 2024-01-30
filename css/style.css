@@ -26,16 +26,6 @@ body {
   margin: 0 auto; /* Center the navigation links */
 }
 
-/*.navbar-brand {
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}*/
-
-
 #navbar img {
   max-width: 200px;
   min-width: 200px;
@@ -113,8 +103,8 @@ hr {
 }
 
 .custom-img {
-  height: 75vh;
   width: 100%; /* To make sure it fills the entire width of the column */
+  height: 100%; /* To make sure it fills the entire height of the container */
   object-fit: cover;
   object-position: center 15%
 }
@@ -170,14 +160,16 @@ hr {
 }
 
 
-
+footer {
+  font-family: 'Averia Serif Libre', serif;
+}
 
 #footer-logo {
   width: 4vw;
 }
 
 #footer-id p {
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   text-align: start;
 }
 
@@ -189,6 +181,12 @@ hr {
     }
     #navbar img {
       padding-left: 30px;
+    }
+
+    video {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
     }
 
     .headerimg {
