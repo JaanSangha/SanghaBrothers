@@ -36,12 +36,12 @@
                     <a class="nav-link active" aria-current="page" href="#">home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">lookbook</a>
+                    <a class="nav-link" href="lookbook.html">lookbook</a>
                 </li>
                 <li class="nav-item spacer"></li>
 
                 <li class="nav-item">
-                    <a class="nav-link">about</a>
+                    <a class="nav-link" href="about.html">about</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">contact us</a>
@@ -149,8 +149,8 @@
 
 
   <div id="footer-container" class="container-fluid">
-    <footer id="footer-id" class="d-flex flex-column flex-md-row justify-content-between align-items-center py-2 my-2">
-      <p class="col-12 col-md-4 mb-3 mb-md-0 text-body-secondary">© 2024 sangha brothers</p>
+    <footer id="footer-id" class="d-flex flex-column flex-md-row justify-content-between align-items-center py-2 my-2 rounded">
+      <p class="col-12 col-md-4 mb-3 mb-md-0 text-body-secondary">© <span id="currentYear"></span> sangha brothers</p>
   
       <a href="#" class="col-12 col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
         <img id="footer-logo" src="./img/SB Mini Logo.jpg" alt="Image 1" class="img-fluid">
@@ -168,7 +168,10 @@
   
   
   
-
+  <script>
+    // Dynamically set the current year in the footer
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+</script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

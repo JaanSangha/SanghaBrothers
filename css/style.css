@@ -217,6 +217,26 @@ footer {
   text-align: start;
 }
 
+#lookbook {
+  padding-top: 150px; /* Adjust this value based on your navbar height */
+}
+
+.close {
+  font-size: 1.5rem;
+}
+
+#lookbook .col-12 img {
+  opacity: 0.8;
+  cursor: pointer;
+  width: 100%;
+}
+
+#lookbook .col-12 img:hover {
+  opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
   /* Extra small devices (phones) */
 @media (max-width: 576px) {
     /* Styles for phones */
@@ -294,6 +314,13 @@ footer {
       height: 100vh;
     }
 
+    #lookbook .col-12 img {
+      opacity: 1;
+      padding: 0 1vw 5vh 1vw;
+      margin: 0;
+      width: 100%;
+    }
+
     #footer-logo {
       width: 14vw;
       margin-bottom: 1vh;;
@@ -340,13 +367,18 @@ footer {
         margin-bottom: 20px;
       }
 
+      #lookbook .col-12 img {
+        opacity: 1;
+        padding: 0 1vw 5vh 1vw;
+        margin: 0;
+        width: 100%;
+      }
+
       #footer-logo {
         width: 12vw;
         margin-bottom: 1vh;;
       }
   
-
-      
       #footer-id p {
         font-size: 3vw;
         text-align: center;
@@ -377,6 +409,13 @@ footer {
 
     .headerimg h1 {
         font-size: 7vw;
+      }
+
+      #lookbook .col-12 img {
+        opacity: 1;
+        padding: 0 1vw 5vh 1vw;
+        margin: 0;
+        width: 100%;
       }
 
       #footer-logo {
