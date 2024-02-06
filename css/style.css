@@ -128,7 +128,8 @@ border-color: #ffffff;
   }
 
   .intro-message {
-    padding-top: 5vh;
+    margin-top: 2vh;
+    padding-top: 1vh;
     padding-bottom: 5vh;
   }
 
@@ -260,8 +261,14 @@ footer {
     }
 
     .headerimg {
-        height: 100vh;
+        height: 63vh;
         padding: 0;
+    }
+
+    .intro-message {
+      margin-top: 1vh;
+      padding-top: 1vh;
+      padding-bottom: 5vh;
     }
 
     .headerimg h1 {
