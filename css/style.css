@@ -244,6 +244,10 @@ border-color: black;
   font-size: 1.3vw;
 }
 
+footer li {
+  margin: 0 2vw;
+}
+
 .icon {
   font-size: 2vw;
 }
@@ -353,6 +357,14 @@ border-color: black;
       width: 100%;
     }
 
+    footer li {
+      margin: 0 2vw;
+    }
+
+    .icon {
+      font-size: 6vw;
+    }
+
     #footer-logo {
       width: 14vw;
       margin-bottom: 1vh;;
@@ -411,6 +423,14 @@ border-color: black;
         width: 100%;
       }
 
+      footer li {
+        margin: 0 2vw;
+      }
+  
+      .icon {
+        font-size: 6vw;
+      }
+
       #footer-logo {
         width: 12vw;
         margin-bottom: 1vh;;
@@ -455,6 +475,14 @@ border-color: black;
         padding: 0 1vw 5vh 1vw;
         margin: 0;
         width: 100%;
+      }
+
+      footer li {
+        margin: 0 2vw;
+      }
+  
+      .icon {
+        font-size: 4vw;
       }
 
       #footer-logo {
