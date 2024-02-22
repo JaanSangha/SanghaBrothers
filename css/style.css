@@ -271,17 +271,6 @@ footer {
       padding-left: 30px;
     }
 
-    video {
-      width: 100vw;
-      height: 100vh;
-      object-fit: cover;
-    }
-
-    .headerimg {
-        height: 63vh;
-        padding: 0;
-    }
-
     .intro-message {
       margin-top: 1vh;
       padding-top: 1vh;
