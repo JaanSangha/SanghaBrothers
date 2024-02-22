@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'GFS Didot', serif;
+    /*font-family: 'GFS Didot', serif;*/
+    font-family: 'Averia Serif Libre', serif;
     background-color: white;
 }
 
@@ -80,6 +81,12 @@ hr {
 
 .top-content{
   background-color: white;
+}
+
+.top-content img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 #contact-form{
@@ -215,9 +222,18 @@ border-color: black;
   margin-bottom: 20px;
 }
 
+.about-section{
+  padding: 5vw;
+}
 
-footer {
-  font-family: 'Averia Serif Libre', serif;
+#guarantee {
+  background-image: url("/img/suit1.jpg")!important;
+  background-size: cover; /* Ensures the background image covers the entire element */
+  background-position: center; /
+}
+
+#footer-container{
+  border-top: 1px solid #ced4da; /* Border color */
 }
 
 #footer-logo {
@@ -226,7 +242,10 @@ footer {
 
 #footer-id p {
   font-size: 1.3vw;
-  text-align: start;
+}
+
+.icon {
+  font-size: 2vw;
 }
 
 #lookbook {
@@ -324,7 +343,7 @@ footer {
 
     video {
       object-position: center top; 
-      height: 100vh;
+      height: 100%;
     }
 
     #lookbook .col-12 img {
@@ -341,7 +360,6 @@ footer {
     
     #footer-id p {
       font-size: 4vw;
-      text-align: center;
     }
 }
 
@@ -400,7 +418,6 @@ footer {
   
       #footer-id p {
         font-size: 3vw;
-        text-align: center;
       }
 }
 
@@ -447,7 +464,6 @@ footer {
 
       #footer-id p {
         font-size: 2.5vw;
-        text-align: center;
       }
 }
 
