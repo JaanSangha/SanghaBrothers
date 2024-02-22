@@ -88,24 +88,24 @@ hr {
 }
 
 .text-form{
-  color: white;
+  color: black;
 }
 
 .text-form input {
-  color: bisque;
-  background-color: #333;
-  border-color: #ffffff;
+  color: black;
+  background-color: white;
+  border-color: black;
 }
 
 .text-form span{
-background-color: #333;
-border-color: #ffffff;
+background-color: white;
+border-color: black;
 }
 
 #message{
-  color: bisque;
-  background-color: #333;
-  border-color: #ffffff;
+  color: black;
+  background-color: white;
+  border-color: black;
 }
 
 .headerimg{
