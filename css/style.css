@@ -36,10 +36,6 @@ body {
   margin: 0 auto; /* Center the navigation links */
 }
 
-#nav-container {
-  height: 100%;
-}
-
 #navbar img {
   width: 220px;
 }
@@ -67,6 +63,12 @@ hr {
 
 .top-content{
   background-color: white;
+}
+
+.container-fluid.headerimg,
+.container-fluid.top-content {
+    padding-top: 0; /* Remove top padding */
+    padding-bottom: 0; /* Remove bottom padding */
 }
 
 .top-content img{
@@ -102,7 +104,7 @@ border-color: black;
 }
 
 .headerimg{
-    height: 75vh;
+    height: 80vh;
     display: flex;
     align-items: center; /* Vertical centering */
     justify-content: center; /* Horizontal centering */
