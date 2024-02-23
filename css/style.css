@@ -19,18 +19,6 @@ body {
   width: 100%; 
 }
 
-#navbar-static {
-  min-height: 100px;
-  background-color: white; 
-  color: black;
-  position: fixed; 
-  z-index: 1000;
-  letter-spacing: 3px;
-  font-size: 1.15vw;
-  font-family: 'Averia Serif Libre', serif;
-  width: 100%; 
-}
-
 #navbar-notstatic{
   min-height: 100px;
   background-color: white; 
@@ -48,14 +36,12 @@ body {
   margin: 0 auto; /* Center the navigation links */
 }
 
-#navbar img {
-  max-width: 200px;
-  min-width: 200px;
+#nav-container {
+  height: 100%;
 }
 
-#navbar-static img {
-  max-width: 200px;
-  min-width: 200px;
+#navbar img {
+  width: 220px;
 }
 
 #navbar-notstatic img {
@@ -227,9 +213,9 @@ border-color: black;
 }
 
 #guarantee {
-  background-image: url("/img/suit1.jpg")!important;
-  background-size: cover; /* Ensures the background image covers the entire element */
-  background-position: center; /
+  /*background-image: url("/img/suit1.jpg")!important;
+  background-size: cover; 
+  background-position: center; */
 }
 
 #footer-container{
