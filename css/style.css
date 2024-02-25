@@ -17,7 +17,7 @@ body {
   font-size: 1.15vw;
   font-family: 'Averia Serif Libre', serif;
   width: 100%; 
-  transition: min-height 0.5s, background-color 0.5s;
+  transition: height 0.5s; /* Include width in transition */
 }
 
 #navbar-notstatic{
@@ -32,7 +32,7 @@ body {
   border-bottom: 1px solid #ced4da; /* Border color */
 }
 .nav-scrolled {
-  max-height: 100px !important;
+  height: 100px !important;
 }
 
 .nav-img-scrolled {
