@@ -479,7 +479,7 @@ footer li {
     /* Styles for laptops and small desktops */
     #navbar {
       height: 130px;
-      font-size: 1.8vw;
+      font-size: 1.5vw;
       transition: height 0.5s; /* Include width in transition */
     }
     #navbar-static {
@@ -548,7 +548,7 @@ footer li {
     /* Styles for desktops */
     #navbar {
       height: 130px;
-      font-size: 1.8vw;
+      font-size: 1.5vw;
       transition: height 0.5s; /* Include width in transition */
     }
     #navbar-static {
@@ -589,7 +589,6 @@ footer li {
 @media (min-width: 1200px) {
   #navbar {
     height: 130px;
-    font-size: 1.8vw;
     transition: height 0.5s; /* Include width in transition */
   }
     /* Styles for large desktops */
