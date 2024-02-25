@@ -3,7 +3,7 @@ window.addEventListener('scroll', function() {
   var navImg = document.getElementById('nav-img');
   var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 
-  if (scrollTop > 0) {
+  if (scrollTop > 0 && window.innerWidth >= 768) {
       navbar.classList.add('nav-scrolled');
       navImg.classList.add('nav-img-scrolled');
   } else {
