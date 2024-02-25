@@ -8,7 +8,7 @@ body {
 }
 
 #navbar {
-  min-height: 100px;
+  min-height: 130px;
   background-color: white; 
   color: black;
   position: fixed; 
@@ -37,7 +37,7 @@ body {
 }
 
 #navbar img {
-  width: 220px;
+  width: 240px;
 }
 
 #navbar-notstatic img {
@@ -45,13 +45,18 @@ body {
   min-width: 200px;
 }
 
+
+
 nav li {
   /*padding: 0px 1.5vw 0px 1.5vw;*/
 min-width: 110px;
 }
 
 .nav-item.spacer {
-  width: 300px; 
+  width: 330px; 
+}
+
+#after-spacer{
 }
 
 hr {
@@ -104,7 +109,7 @@ border-color: black;
 }
 
 .headerimg{
-    height: 80vh;
+    height: 85vh;
     display: flex;
     align-items: center; /* Vertical centering */
     justify-content: center; /* Horizontal centering */
@@ -134,9 +139,20 @@ border-color: black;
   }
 
   .intro-message {
-    margin-top: 2vh;
-    padding-top: 1vh;
+    margin-top: 0vh;
+    padding-top: 0vh;
     padding-bottom: 5vh;
+  }
+
+  .intro-message h1{
+    font-size: 3vw;
+    letter-spacing: 3px;
+    padding-bottom: 4vh;
+  }
+
+  .intro-message h2{
+    font-size: 2.2vw;
+    letter-spacing: 3px;
   }
 
 .blackjumbo {
