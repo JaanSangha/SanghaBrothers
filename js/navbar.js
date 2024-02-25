@@ -1,22 +1,13 @@
-$(document).on('scroll', function () {
-  handleScroll();
-});
+window.addEventListener('scroll', function() {
+  var navbar = document.getElementById('navbar');
+  var navImg = document.getElementById('nav-img');
+  var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 
-function handleScroll() {
-  var navbar = document.getElementById("navbar");
-  var isNavbarExpanded = $(".navbar-collapse").hasClass("show");
-
-  // Check if the user has scrolled down a certain amount
-  if ($(document).scrollTop() > 20) {
-    navbar.style.top = "0";
-
-   
-
+  if (scrollTop > 0) {
+      navbar.classList.add('nav-scrolled');
+      navImg.classList.add('nav-img-scrolled');
   } else {
-    navbar.style.top = "-100px";
-     // If the navbar is expanded, collapse it
-     if (isNavbarExpanded) {
-      $(".navbar-toggler").click();
-    }
+      navbar.classList.remove('nav-scrolled');
+      navImg.classList.remove('nav-img-scrolled');
   }
-}
+});
