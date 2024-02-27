@@ -87,6 +87,18 @@ hr {
   object-fit: cover;
 }
 
+.top-content p {
+  font-size: 1.5vw;
+}
+
+#guarantee p{
+  font-size: 1.5vw;
+}
+
+#guarantee .btn {
+  width: 10vw;
+}
+
 #contact-form{
   padding-top: 50px; /* Adjust this value based on your navbar height */
   padding-bottom: 50px;
@@ -235,11 +247,6 @@ border-color: black;
   padding: 5vw;
 }
 
-#guarantee {
-  /*background-image: url("/img/suit1.jpg")!important;
-  background-size: cover; 
-  background-position: center; */
-}
 
 #footer-container{
   border-top: 1px solid #ced4da; /* Border color */
@@ -311,6 +318,8 @@ footer li {
       margin-top: 1vh;
       padding-top: 4vh;
       padding-bottom: 5vh;
+      padding-left: 10vw;
+      padding-right: 10vw;
     }
     .intro-message h1{
       font-size: 8vw;
@@ -323,6 +332,17 @@ footer li {
       letter-spacing: 3px;
     }
 
+    .top-content p {
+      font-size: 3vw;
+    }
+    
+    #guarantee p{
+      font-size: 3vw;
+    }
+
+    #guarantee .btn {
+      width: 27vw;
+    }
 
       .headerimg img {
         width: 70vw;
@@ -421,6 +441,8 @@ footer li {
       margin-top: 1vh;
       padding-top: 4vh;
       padding-bottom: 5vh;
+      padding-left: 10vw;
+      padding-right: 10vw;
     }
 
     .intro-message h1{
@@ -432,6 +454,18 @@ footer li {
     .intro-message h2{
       font-size: 4vw;
       letter-spacing: 3px;
+    }
+
+    .top-content p {
+      font-size: 2vw;
+    }
+    
+    #guarantee p{
+      font-size: 2vw;
+    }
+
+    #guarantee .btn {
+      width: 17vw;
     }
 
       .review-slider{
@@ -505,6 +539,8 @@ footer li {
       margin-top: 1vh;
       padding-top: 4vh;
       padding-bottom: 5vh;
+      padding-left: 10vw;
+      padding-right: 10vw;
     }
 
     .intro-message h1{
@@ -516,6 +552,18 @@ footer li {
     .intro-message h2{
       font-size: 3vw;
       letter-spacing: 3px;
+    }
+
+    .top-content p {
+      font-size: 2vw;
+    }
+    
+    #guarantee p{
+      font-size: 2vw;
+    }
+
+    #guarantee .btn {
+      width: 13vw;
     }
 
       #lookbook .col-12 img {
