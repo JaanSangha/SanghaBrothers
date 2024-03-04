@@ -47,11 +47,18 @@ body {
   transition: width 0.5s;
 }
 
+#navbar img:hover {
+  cursor: pointer; /* Change cursor to pointer when hovering over the image */
+}
+
 #navbar-notstatic img {
   max-width: 200px;
   min-width: 200px;
 }
 
+#navbar-notstatic img:hover {
+  cursor: pointer; /* Change cursor to pointer when hovering over the image */
+}
 
 
 nav li {
