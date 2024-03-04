@@ -24,7 +24,7 @@
 
   <nav id="navbar-notstatic" class="navbar rounded navbar-expand-md" aria-label="Twelfth navbar example">
     <div class="container-fluid position-relative text-center">
-        <img class="navbar-brand mx-auto align-items-center" src="./img/SB Main Logoedited.png" alt="Your Image Alt Text" class="img-fluid position-absolute top-50 start-50 translate-middle">
+        <img id="logoButton" class="navbar-brand mx-auto align-items-center" src="./img/SB Main Logoedited.png" alt="Your Image Alt Text" class="img-fluid position-absolute top-50 start-50 translate-middle">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -52,7 +52,8 @@
 <div class="about-section">
 	<h2>about</h2>
 		<p>At Sangha Brothers, brotherhood is not just a theme; it's the foundation of our brand. Explore the narrative of three siblings who embarked on a joint venture to redefine menswear, weaving their shared experiences and familial bonds into the fabric of every suit.</p>
-	<h2>our process</h2>
+
+		<h2>our process</h2>
 		<p>Experience the unique touch of brotherhood in our meticulously crafted suits. From hand-selected fabrics to precision tailoring, our creations carry the essence of collaboration and mutual support, reflecting the harmony that comes from a shared vision and passion for exquisite tailoring.
 
 			Whether it's a timeless design or a bold statement piece, each garment is tailored with precision and care to reflect your unique personality and style.
@@ -61,12 +62,7 @@
 	<p>
 		Our master tailor is truly one of a kind with over 30+ years of experience. 
 		Our close knit relationship with tailors and cutters ensures every suit is perfect 
-		Every suit is treaty with the upmost respect and attention to detail. 
-	</p>
-	<h2>personalized Touch</h2>
-	<p>We provide fully customizable options for all our suits from the thread colour of the stitch to the overall complete design.</p>
-	<h2>fabric</h2>
-	<p>Our fabric if only sourced form some of the most reputable companies and clothing mills in the world. With brands such as: VBC, Reda, Drago etc.  
+		Every suit is treated with the upmost respect and attention to detail. 
 	</p>
 	<h2>price</h2>
 	<p>We pride ourselves in be able to ,, with suits starting at $849.99 for a 2 piece suit.</p>
@@ -75,21 +71,21 @@
 
 
 <div class="p-5 blackjumbo text-center ">
-	<h2 class="font-weight-bold text-uppercase">Crafting Elegance, Tailoring Excellence</h2>
+	<h2 class="font-weight-bold">artisan elegance, crafted to perfection</h2>
 	<div class="container two-columns py-md-5 py-sm-3">
 		<div class="row">
 			<div class="col-12 col-md-6">
-				<h3>Quality Materials</h3>
-				<hr>
+				<h3>personalized touch</h3>
+				<hr class="shadow">
 				<p class="mx-auto lead">
-				  Drawing from both tradition and modernity, we meticulously craft bespoke suits that blend classic elegance with contemporary flair. Whether it's a timeless design or a bold statement piece, each garment is tailored with precision and care to reflect your unique personality and style.
+					We provide fully customizable options for all our suits from the thread colour of the stitch to the overall complete design.
 				</p>
 			</div>
 			<div class="col-12 col-md-6">
-				<h3>Made to Measure</h3>
+				<h3>quality fabric</h3>
 				<hr>
 				<p class="mx-auto lead">
-				  With Sangha Brother’s, you're not just wearing a suit – you're joining a community of like-minded individuals who value brotherhood, craftsmanship, and individuality. Step into our world and experience the difference that true camaraderie can make in menswear.
+					Our fabric is only sourced form some of the most reputable companies and clothing mills in the world. With brands such as: VBC, Reda, Drago etc.  
 				</p>
 			</div>
 		</div>
@@ -133,7 +129,16 @@
   
   
   
+  <script>
+    // Get reference to the image element
+    const image = document.getElementById('logoButton');
 
+    // Add click event listener to the image
+    image.addEventListener('click', function() {
+        // Navigate to a different page when the image is clicked
+        window.location.href = 'index.html';
+    });
+</script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
