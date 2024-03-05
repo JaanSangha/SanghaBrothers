@@ -14,14 +14,21 @@ ol li{
 
 h1 {
   letter-spacing: 3px;
+  font-size: 2.6vw;
 }
 
 h2{
   letter-spacing: 3px;
+  font-size: 1.8vw;
 }
 
 h3{
   letter-spacing: 3px;
+  font-size: 1.4vw;
+}
+
+p{
+  font-size: 1.2vw;
 }
 
 #navbar {
@@ -111,14 +118,6 @@ hr {
   object-fit: cover;
 }
 
-.top-content p {
-  font-size: 1.5vw;
-}
-
-#guarantee p{
-  font-size: 1.5vw;
-}
-
 #guarantee .btn {
   width: 10vw;
 }
@@ -186,14 +185,7 @@ border-color: black;
   }
 
   .intro-message h1{
-    font-size: 3vw;
-    letter-spacing: 3px;
     padding-bottom: 4vh;
-  }
-
-  .intro-message h2{
-    font-size: 2vw;
-    letter-spacing: 3px;
   }
 
 .blackjumbo {
@@ -318,6 +310,22 @@ footer li {
   /* Extra small devices (phones) */
 @media (max-width: 576px) {
     /* Styles for phones */
+    h1 {
+      font-size: 8vw;
+    }
+    
+    h2{
+      font-size: 5vw;
+    }
+    
+    h3{
+      font-size: 4vw;
+    }
+    
+    p{
+      font-size: 3vw;
+    }
+
     #navbar {
       font-size: 4vw;
     }
@@ -345,22 +353,7 @@ footer li {
       padding-right: 10vw;
     }
     .intro-message h1{
-      font-size: 8vw;
-      letter-spacing: 3px;
       padding-bottom: 2vh;
-    }
-  
-    .intro-message h2{
-      font-size: 5vw;
-      letter-spacing: 3px;
-    }
-
-    .top-content p {
-      font-size: 3vw;
-    }
-    
-    #guarantee p{
-      font-size: 3vw;
     }
 
     #guarantee .btn {
@@ -372,18 +365,10 @@ footer li {
       }
 
       .blackjumbo h2{
-          font-size: 5.5vw;
           padding-bottom: 2.5vh;
-
       }
 
-      .blackjumbo h3{
-        font-size: 4.5vw;
-
-    }
-
       .blackjumbo p{
-        font-size: 3vw;
         padding-bottom: 3vh;
     }
 
@@ -392,6 +377,7 @@ footer li {
       width: 100%; /* To make sure it fills the entire width of the column */
       object-fit: cover;
     }
+  
 
     .review-slider{
       height: 40vh;
@@ -441,6 +427,22 @@ footer li {
 /* Small devices (tablets) */
 @media (min-width: 577px) and (max-width: 767px) {
     /* Styles for tablets */
+    h1 {
+      font-size: 7vw;
+    }
+    
+    h2{
+      font-size: 4vw;
+    }
+    
+    h3{
+      font-size: 4vw;
+    }
+    
+    p{
+      font-size: 2vw;
+    }
+
     #navbar {
       font-size: 3vw;
     }
@@ -469,22 +471,7 @@ footer li {
     }
 
     .intro-message h1{
-      font-size: 7vw;
-      letter-spacing: 3px;
       padding-bottom: 2vh;
-    }
-  
-    .intro-message h2{
-      font-size: 4vw;
-      letter-spacing: 3px;
-    }
-
-    .top-content p {
-      font-size: 2vw;
-    }
-    
-    #guarantee p{
-      font-size: 2vw;
     }
 
     #guarantee .btn {
@@ -534,6 +521,22 @@ footer li {
 /* Medium devices (laptops, small desktops) */
 @media (min-width: 768px) and (max-width: 991px) {
     /* Styles for laptops and small desktops */
+    h1 {
+      font-size: 6vw;
+    }
+    
+    h2{
+      font-size: 4vw;
+    }
+    
+    h3{
+      font-size: 3vw;
+    }
+    
+    p{
+      font-size: 2vw;
+    }
+
     #navbar {
       height: 130px;
       font-size: 1.5vw;
@@ -567,22 +570,7 @@ footer li {
     }
 
     .intro-message h1{
-      font-size: 6vw;
-      letter-spacing: 3px;
       padding-bottom: 2vh;
-    }
-  
-    .intro-message h2{
-      font-size: 3vw;
-      letter-spacing: 3px;
-    }
-
-    .top-content p {
-      font-size: 2vw;
-    }
-    
-    #guarantee p{
-      font-size: 2vw;
     }
 
     #guarantee .btn {
@@ -617,6 +605,21 @@ footer li {
 /* Large devices (desktops) */
 @media (min-width: 992px) and (max-width: 1199px) {
     /* Styles for desktops */
+    h1 {
+      font-size: 4vw;
+    }
+    
+    h2{
+      font-size: 2vw;
+    }
+    
+    h3{
+      font-size: 1.7vw;
+    }
+    
+    p{
+      font-size: 1.4vw;
+    }
     #navbar {
       height: 130px;
       font-size: 1.5vw;
@@ -644,14 +647,7 @@ footer li {
     }
 
     .intro-message h1{
-      font-size: 4vw;
-      letter-spacing: 3px;
       padding-bottom: 2vh;
-    }
-  
-    .intro-message h2{
-      font-size: 2vw;
-      letter-spacing: 3px;
     }
 
 }
