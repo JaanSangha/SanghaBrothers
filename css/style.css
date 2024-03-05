@@ -128,12 +128,6 @@ hr {
   padding-bottom: 50px;
 }
 
-#contact-form h2{
-  
-}
-
-
-
 .text-form{
   color: black;
 }
@@ -203,8 +197,7 @@ border-color: black;
   }
 
 .blackjumbo {
-    background-color: black;
-    color: white;
+    color: black;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
