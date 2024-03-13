@@ -51,7 +51,7 @@ p{
   font-size: 1.15vw;
   font-family: 'Averia Serif Libre', serif;
   width: 100%; 
-  border-bottom: 1px solid #ced4da; /* Border color */
+  
 }
 .nav-scrolled {
   height: 100px !important;
