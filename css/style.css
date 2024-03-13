@@ -655,7 +655,7 @@ footer li {
 /* Extra large devices (large desktops) */
 @media (min-width: 1200px) {
   #navbar {
-    height: 130px;
+    height: 140px;
     transition: height 0.5s; /* Include width in transition */
   }
     /* Styles for large desktops */
