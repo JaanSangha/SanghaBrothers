@@ -188,6 +188,12 @@ border-color: black;
     padding-bottom: 4vh;
   }
 
+  .intro-message p {
+    padding-left: 4vw;
+    padding-right: 4vw;
+
+  }
+
 .blackjumbo {
     color: black;
     margin: 0;
