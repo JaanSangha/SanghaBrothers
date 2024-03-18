@@ -117,6 +117,25 @@
 </div>
 
 <script>
+    // Function to change navbar id based on screen size
+    function changeNavbarId() {
+        const navbar = document.querySelector('nav');
+        if (window.innerWidth <= 576) { // Change id for smaller screens
+            navbar.setAttribute('id', 'navbar-notstatic');
+        } else { // Revert id for larger screens
+            navbar.setAttribute('id', navbarId);
+        }
+    }
+
+    const navbarId = 'navbar'; // Store the original navbar ID
+
+    // Call the function initially
+    changeNavbarId();
+
+    // Add event listener to window resize event
+    window.addEventListener('resize', changeNavbarId);
+</script>
+<script>
     // Get reference to the image element
     const image = document.getElementById('nav-img');
 

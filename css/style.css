@@ -351,6 +351,10 @@ footer li {
       padding-left: 30px;
     }
 
+    .headerimg {
+      display: none;
+    }
+
     .intro-message {
       margin-top: 1vh;
       padding-top: 4vh;
