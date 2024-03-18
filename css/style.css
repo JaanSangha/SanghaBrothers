@@ -29,6 +29,7 @@ h3{
 
 p{
   font-size: 1.2vw;
+  color: #888686;
 }
 
 #navbar {
@@ -85,8 +86,16 @@ p{
 }
 
 .navbar-toggler-icon {
-  width: 15px; /* Set your desired width */
-  height: 15px; /* Set your desired height */
+  width: 14px; /* Set your desired width */
+  height: 14px; /* Set your desired height */
+}
+#navbar .navbar-toggler {
+  border: 0;
+  outline: none;
+}
+#navbar-notstatic .navbar-toggler {
+  border: 0;
+  outline: none;
 }
 
 nav li {
@@ -112,7 +121,7 @@ hr {
 
 .container-fluid.headerimg,
 .container-fluid.top-content {
-    padding-top: 0; /* Remove top padding */
+    /*padding-top: 0; /* Remove top padding */
     padding-bottom: 0; /* Remove bottom padding */
 }
 
@@ -185,11 +194,10 @@ border-color: black;
   .intro-message {
     margin-top: 0vh;
     padding-top: 0vh;
-    padding-bottom: 5vh;
   }
 
   .intro-message h1{
-    padding-bottom: 4vh;
+    padding-bottom: 2vh;
   }
 
   .intro-message p {
@@ -212,10 +220,11 @@ border-color: black;
 }
 
 .custom-img {
-  width: 100%; /* To make sure it fills the entire width of the column */
-  height: 100%; /* To make sure it fills the entire height of the container */
+  width: 90%; /* To make sure it fills the entire width of the column */
+  height: 90%; /* To make sure it fills the entire height of the container */
   object-fit: cover;
-  object-position: center 15%
+  object-position: center;
+  text-align: center;
 }
 
 .review-slider{
@@ -270,6 +279,12 @@ border-color: black;
 
 .about-section{
   padding: 5vw;
+  text-align: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.about-section p{
+  color: #888686;
 }
 
 
@@ -352,7 +367,7 @@ footer li {
       font-size: 4vw;
     }
     #navbar-notstatic img {
-      padding-left: 30px;
+      padding-left: 37px;
     }
 
     .headerimg {
@@ -436,6 +451,7 @@ footer li {
     #footer-id p {
       font-size: 4vw;
     }
+    
 }
 
 /* Small devices (tablets) */
