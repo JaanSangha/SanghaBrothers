@@ -407,6 +407,9 @@ footer li {
       object-fit: cover;
     }
   
+    #guarantee {
+      border-top: .33px solid black; /* Change the color and style as needed */
+  }
 
     .review-slider{
       height: 40vh;
@@ -451,6 +454,11 @@ footer li {
     #footer-id p {
       font-size: 4vw;
     }
+
+    .mobile-hide {
+      display: none;
+  }
+
     
 }
 
@@ -546,6 +554,10 @@ footer li {
       #footer-id p {
         font-size: 3vw;
       }
+      .mobile-hide {
+        display: none;
+    }
+
 }
 
 /* Medium devices (laptops, small desktops) */
