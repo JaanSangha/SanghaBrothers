@@ -84,6 +84,10 @@ p{
   cursor: pointer; /* Change cursor to pointer when hovering over the image */
 }
 
+.navbar-toggler-icon {
+  width: 15px; /* Set your desired width */
+  height: 15px; /* Set your desired height */
+}
 
 nav li {
   /*padding: 0px 1.5vw 0px 1.5vw;*/
