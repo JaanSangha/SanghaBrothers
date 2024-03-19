@@ -394,7 +394,7 @@ footer li {
       }
 
       .blackjumbo h2{
-          padding-bottom: 2.5vh;
+          padding-bottom: 1.5vh;
       }
 
       .blackjumbo p{
@@ -408,7 +408,7 @@ footer li {
     }
   
     #guarantee {
-      border-top: .33px solid black; /* Change the color and style as needed */
+      border-top: 1px solid #ced4da; /* Change the color and style as needed */
   }
 
     .review-slider{
@@ -457,6 +457,10 @@ footer li {
 
     .mobile-hide {
       display: none;
+  }
+
+  #about-top{
+    border-bottom: 1px solid #ced4da; /* Border color */
   }
 
     
@@ -556,6 +560,10 @@ footer li {
       }
       .mobile-hide {
         display: none;
+    }
+
+    #about-top{
+      border-bottom: 1px solid #ced4da; /* Border color */
     }
 
 }
