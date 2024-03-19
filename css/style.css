@@ -32,6 +32,7 @@ p{
   color: #888686;
 }
 
+
 #navbar {
   background-color: white; 
   color: black;
@@ -650,6 +651,10 @@ footer li {
       #footer-id p {
         font-size: 2.5vw;
       }
+      .mobile-hide {
+        display: none;
+    }
+      
 }
 
 /* Large devices (desktops) */
@@ -699,7 +704,10 @@ footer li {
     .intro-message h1{
       padding-bottom: 2vh;
     }
-
+    .aboutps {
+      margin-left: 13vw;
+      margin-right: 13vw;
+    }
 }
 
 /* Extra large devices (large desktops) */
@@ -716,6 +724,11 @@ footer li {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+    }
+
+    .aboutps {
+      margin-left: 13vw;
+      margin-right: 13vw;
     }
 }
 
