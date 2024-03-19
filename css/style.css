@@ -209,8 +209,6 @@ border-color: black;
 
 .blackjumbo {
     color: black;
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
    display: block;
   }
@@ -221,8 +219,8 @@ border-color: black;
 }
 
 .custom-img {
-  width: 90%; /* To make sure it fills the entire width of the column */
-  height: 90%; /* To make sure it fills the entire height of the container */
+  width: 100%; /* To make sure it fills the entire width of the column */
+  height: 100%; /* To make sure it fills the entire height of the container */
   object-fit: cover;
   object-position: center;
   text-align: center;
